@@ -37,18 +37,9 @@ public class TSP_Solver {
             int coordinateY = this.random.nextInt(this.MAX_COORDINATE);
             this.addTown(coordinateX, coordinateY);
         }
-
-        try {
-            this.solveProblem();
-        } catch (Exception e){
-            for(Town[] route: this.population){
-                this.printTowns(route);
-            }
-            System.out.println(e.getMessage());
-        }
     }
 
-    private void solveProblem(){
+    public void solveProblem(){
 
         this.population.add(this.towns.toArray(new Town[this.numberOfTowns]));
         this.makePopulation(this.MAX_INDIVIDUAL - 1);
@@ -58,6 +49,7 @@ public class TSP_Solver {
             generation++;
 
             if (this.GENERATION_FOR_PRINT.contains(generation)){
+                System.out.println("Population: " + generation);
                 this.printTowns(this.population.get(0));
             }
 
@@ -88,7 +80,7 @@ public class TSP_Solver {
     }
 
     private void printTowns(Town[] individual){
-        System.out.println("Individual:");
+        System.out.println("Best route:");
         for (Town town : individual) {
             System.out.print("(" + town.getX() + ", " + town.getY() + ") ");
         }

@@ -64,8 +64,9 @@ public class TicTacToe {
             if (winner.equals(this.BOT_SYMBOL)){
                 this.isOver = true;
                 System.out.println("\nSorry! You lost.");
+            } else {
+                this.isOver = this.checkForGameIsOver();
             }
-            this.isOver = this.checkForGameIsOver();
         }
     }
 

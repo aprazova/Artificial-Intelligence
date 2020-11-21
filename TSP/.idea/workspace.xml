@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="131600b0-3edf-4643-a1c9-20e71d1544dc" name="Default Changelist" comment="" />
+    <list default="true" id="952bd790-37f2-4202-a404-724252eec830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Route.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TSP_Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TSP_Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/TicTacToe.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/src/TicTacToe.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1kFCMPYzONszZjWzftwqjamQf1l" />
+  <component name="ProjectId" id="1kbWGZtwHeQqjwRlKPi0klH0kK0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../62158_TicTacToe" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Домашни/62158_TSP" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="62158_TSP" />
+      <module name="TSP" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -45,86 +58,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="131600b0-3edf-4643-a1c9-20e71d1544dc" name="Default Changelist" comment="" />
-      <created>1605286903238</created>
+      <changelist id="952bd790-37f2-4202-a404-724252eec830" name="Default Changelist" comment="" />
+      <created>1605969676300</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605286903238</updated>
+      <updated>1605969676300</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="599" y="267" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1605462395711">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605970187850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="599" y="267" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1536.824@0.0.1536.824" timestamp="1605462395711" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1605468995862">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605970187850" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605970160265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605468995862" />
-    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1605463419597">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605970160265" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605970160265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1605463419597" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605963873683">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605970160265" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605970160265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605963873683" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605719417132">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605970160265" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605970160265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605719417132" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605719417132">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605970160265" />
+    <state x="209" y="33" key="new project wizard" timestamp="1605970201268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605719417132" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605719417132">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605719417132" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605719417132">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605719417132" />
-    <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1605551556819">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605551556819" />
-    <state width="1493" height="251" key="GridCell.Tab.1.center" timestamp="1605551556819">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605551556819" />
-    <state width="1493" height="251" key="GridCell.Tab.1.left" timestamp="1605551556819">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605551556819" />
-    <state width="1493" height="251" key="GridCell.Tab.1.right" timestamp="1605551556819">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605551556819" />
-    <state x="209" y="33" key="new project wizard" timestamp="1605808555975">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605808555975" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605467778972">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605467778972" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TSP_Solver.java</url>
-          <line>189</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="secondParent[4]" />
-      </configuration>
-    </watches-manager>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605970201268" />
   </component>
 </project>
