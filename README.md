@@ -1,3 +1,3 @@
-# Data-Mining
+# Artificial Intelligence
 
-Data Mining FMI course - 2020/2021
+Artificial Intelligence FMI course - 2020/2021
