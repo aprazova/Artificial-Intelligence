@@ -1,6 +1,9 @@
+import java.text.DecimalFormat;
 import java.util.*;
 
 public class TSP_Solver {
+    private static DecimalFormat df = new DecimalFormat("0.00");
+
     private final Integer MAX_COORDINATE = 10000;
     private final Integer MAX_GENERATIONS = 500;
     private final Integer MAX_INDIVIDUAL;
@@ -8,7 +11,7 @@ public class TSP_Solver {
 
     private final List<Integer> GENERATION_FOR_PRINT = new ArrayList<Integer>(){
         {
-            add(MAX_GENERATIONS/5);
+            add(10);
             add(MAX_GENERATIONS/4);
             add(MAX_GENERATIONS/3);
             add(MAX_GENERATIONS/2);
@@ -49,8 +52,8 @@ public class TSP_Solver {
             generation++;
 
             if (this.GENERATION_FOR_PRINT.contains(generation)){
-                System.out.println("Population: " + generation);
-                this.printTowns(this.population.get(0));
+                System.out.println("\nGeneration: " + generation);
+                System.out.println("Distance: " + df.format(this.getRouteDistance(this.population.get(0))));
             }
 
             this.sortPopulation(this.population);
@@ -79,15 +82,6 @@ public class TSP_Solver {
         this.towns.add(new Town(x,y));
     }
 
-    private void printTowns(Town[] individual){
-        System.out.println("Best route:");
-        for (Town town : individual) {
-            System.out.print("(" + town.getX() + ", " + town.getY() + ") ");
-        }
-        System.out.println("Cost: " + this.getRouteCost(individual));
-        System.out.println();
-    }
-
     private void makePopulation(Integer numberOfIndividuals){
         for (int i=0; i<numberOfIndividuals; i++){
             List<Town> route = new ArrayList<>(this.towns);
@@ -101,8 +95,8 @@ public class TSP_Solver {
         }
     }
 
-    private Long getRouteCost(Town[] individual){
-        long routeCost = 0;
+    private double getRouteDistance(Town[] individual){
+        double routeCost = 0;
         for (int i = 1; i < individual.length; i++){
             routeCost += individual[i].getDistanceTo(individual[i-1]);
         }
@@ -159,9 +153,9 @@ public class TSP_Solver {
         population.sort(new Comparator<Town[]>() {
             @Override
             public int compare(Town[] t1, Town[] t2) {
-                Long routeCostT1 = getRouteCost(t1);
-                Long routeCostT2 = getRouteCost(t2);
-                return Long.compare(routeCostT1, routeCostT2);
+                Double routeCostT1 = getRouteDistance(t1);
+                Double routeCostT2 = getRouteDistance(t2);
+                return Double.compare(routeCostT1, routeCostT2);
             }
         });
     }

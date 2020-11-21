@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3f123a4-f70a-4ff8-9c54-11211f082038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TSP/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSP/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSP/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSP/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TSP/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSP/src/Route.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSP/src/TSP_Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TSP/src/TSP_Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe.java" afterDir="false" />
-    </list>
+    <list default="true" id="d3f123a4-f70a-4ff8-9c54-11211f082038" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +19,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Домашни/62158_TSP" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -64,6 +52,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605984055796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605984055796" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605970289016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
