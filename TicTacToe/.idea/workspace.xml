@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9df2d612-811e-42cd-a25c-95de049d80cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kWFh6QiWzAXNbYDaKGbMnhedL2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="62158_TicTacToe" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9df2d612-811e-42cd-a25c-95de049d80cd" name="Default Changelist" comment="" />
+      <created>1605808556345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605808556345</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="316" key="GridCell.Tab.0.bottom" timestamp="1605967740551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605967740551" />
+    <state width="1493" height="316" key="GridCell.Tab.0.center" timestamp="1605967740551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605967740551" />
+    <state width="1493" height="316" key="GridCell.Tab.0.left" timestamp="1605967740551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605967740551" />
+    <state width="1493" height="316" key="GridCell.Tab.0.right" timestamp="1605967740551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605967740551" />
+    <state width="1493" height="316" key="GridCell.Tab.1.bottom" timestamp="1605967740551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605967740551" />
+    <state width="1493" height="316" key="GridCell.Tab.1.center" timestamp="1605967740551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605967740551" />
+    <state width="1493" height="316" key="GridCell.Tab.1.left" timestamp="1605967740551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605967740551" />
+    <state width="1493" height="316" key="GridCell.Tab.1.right" timestamp="1605967740551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605967740551" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
