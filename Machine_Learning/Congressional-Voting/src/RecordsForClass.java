@@ -13,17 +13,6 @@ public class RecordsForClass {
         }
     }
 
-    public void printFeatures(){
-        System.out.println(this.className.toUpperCase() + " " + this.frequency);
-        int i =1 ;
-        for (FeaturesMapping feature : this.features) {
-            System.out.print(i + " ");
-            feature.printFeature(this.frequency);
-            System.out.println();
-            i++;
-        }
-    }
-
     public void addRecord(String record){
         this.increaseClassFrequency();
         String[] featuresValues = record.split(",");

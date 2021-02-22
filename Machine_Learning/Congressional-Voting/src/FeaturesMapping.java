@@ -10,7 +10,7 @@ public class FeaturesMapping {
     FeaturesMapping(){
         this.featureValues = new HashMap<>();
         for (String value : POSSIBLE_VALUES) {
-            featureValues.put(value, new Feature());
+            this.featureValues.put(value, new Feature());
         }
     }
 
@@ -20,7 +20,7 @@ public class FeaturesMapping {
 
     public void printFeature(Integer classFrequency){
         for (String value: this.POSSIBLE_VALUES){
-            featureValues.get(value).getValueProbabilityInClass(classFrequency);
+            this.featureValues.get(value).getValueProbabilityInClass(classFrequency);
         }
     }
 

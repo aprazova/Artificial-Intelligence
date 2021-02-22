@@ -8,15 +8,15 @@ public class NaiveBayesClassifier {
     private final Integer NUMBER_OF_FEATURES = 16;
     private final String[] CLASSES = {"democrat", "republican"};
 
-    private Map<String, RecordsForClass> trainingDataSet;
+    private Map<String, RecordsForClass> trainingDataSer;
     private List<String> dataSet;
 
     NaiveBayesClassifier(String data){
-        this.trainingDataSet = new HashMap<>();
+        this.trainingDataSer = new HashMap<>();
 
         //Initialize dataSet mapping
         for (String className : this.CLASSES) {
-            this.trainingDataSet.put(className, new RecordsForClass(className, this.NUMBER_OF_FEATURES));
+            this.trainingDataSer.put(className, new RecordsForClass(className, this.NUMBER_OF_FEATURES));
         }
 
         this.dataSet = new ArrayList<>();
@@ -46,7 +46,7 @@ public class NaiveBayesClassifier {
                     String[] record = this.dataSet.get(j).split(",", 2);
                     String className = record[0];
                     String features = record[1];
-                    this.trainingDataSet.get(className).addRecord(features);
+                    this.trainingDataSer.get(className).addRecord(features);
                 }
             }
             for (int s = 0; s < sizeOfValidationDataSet; s++){
@@ -56,7 +56,7 @@ public class NaiveBayesClassifier {
                 String features = record[1];
                 for (String className :
                         this.CLASSES) {
-                    double classNameProbability = this.trainingDataSet.get(className).computePosteriorProbabilities(features, sizeOfTrainingDataSet);
+                    double classNameProbability = this.trainingDataSer.get(className).computePosteriorProbabilities(features, sizeOfTrainingDataSet);
                     if (probability < classNameProbability){
                         probability = classNameProbability;
                         probableClass = className;
@@ -65,14 +65,14 @@ public class NaiveBayesClassifier {
                 if (probableClass.equals(record[0])) {
                     success++;
                 } else {
-                    this.trainingDataSet.get(record[0]).addRecord(features);
+                    this.trainingDataSer.get(record[0]).addRecord(features);
                 }
             }
             accuracy = (double)success/sizeOfValidationDataSet * 100;
             System.out.println("Accuracy in iteration " + (i + 1) + ": " + accuracy);
             avrAccuracy += accuracy;
             for (RecordsForClass mapping :
-                    this.trainingDataSet.values()) {
+                    this.trainingDataSer.values()) {
                 mapping.clear();
             }
             validationData.clear();
